@@ -1,5 +1,5 @@
 <div>
- <div class="navbar navbar-fixed-top">
+ <!-- <div class="navbar navbar-fixed-top">
   <div class="navbar-inner">
    <ul class="nav" data-bind="foreach: router.navigationModel">
     <li data-bind="css: { active: isActive }">
@@ -10,6 +10,11 @@
      <i class="icon-spinner icon-2x icon-spin"></i>
    </div>
   </div>
- </div>
- <div class="container-fluid page-host" data-bind="router: { transition:'entrance' }"></div>
+ </div> -->
+  <span data-bind="compose: 'templates/nav'"></span>
+
+  <div class="container-fluid page-host" data-bind="router: { transition:'entrance' }"></div>
+  <script type="text/javascript">
+    $(document).foundation();
+  </script>
 </div>

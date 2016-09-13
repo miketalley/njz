@@ -8,6 +8,8 @@
     "express": "^4.14.0",
     "firebase": "^3.3.2",
     "font-awesome": "^4.6.3",
+    "foundation": "^4.2.1-1",
+    "foundation-sites": "^6.2.3",
     "jquery": "^3.1.0",
     "knockout": "^3.4.0",
     "passport": "^0.3.2",
